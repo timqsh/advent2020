@@ -2,5 +2,8 @@
     "python.linting.mypyEnabled": true,
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
-    }
+    },
+    "cSpell.words": [
+        "BFRL"
+    ]
 }
