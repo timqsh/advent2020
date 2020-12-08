@@ -1,0 +1,30 @@
+shiny gold bags contain 1 aa aa bag, 1 ba ba bag, 1 ca ca bag, 1 da da bag.
+aa aa bags contain 1 ba ba bag, 1 ca ca bag, 1 da da bag, 1 ea ea bag.
+ba ba bags contain 1 ca ca bag, 1 da da bag, 1 ea ea bag, 1 fa fa bag.
+ca ca bags contain 1 da da bag, 1 ea ea bag, 1 fa fa bag, 1 ga ga bag.
+da da bags contain 1 ea ea bag, 1 fa fa bag, 1 ga ga bag, 1 ha ha bag.
+ea ea bags contain 1 fa fa bag, 1 ga ga bag, 1 ha ha bag, 1 ia ia bag.
+fa fa bags contain 1 ga ga bag, 1 ha ha bag, 1 ia ia bag, 1 ja ja bag.
+ga ga bags contain 1 ha ha bag, 1 ia ia bag, 1 ja ja bag, 1 ka ka bag.
+ha ha bags contain 1 ia ia bag, 1 ja ja bag, 1 ka ka bag, 1 la la bag.
+ia ia bags contain 1 ja ja bag, 1 ka ka bag, 1 la la bag, 1 ma ma bag.
+ja ja bags contain 1 ka ka bag, 1 la la bag, 1 ma ma bag, 1 na na bag.
+ka ka bags contain 1 la la bag, 1 ma ma bag, 1 na na bag, 1 oa oa bag.
+la la bags contain 1 ma ma bag, 1 na na bag, 1 oa oa bag, 1 pa pa bag.
+ma ma bags contain 1 na na bag, 1 oa oa bag, 1 pa pa bag, 1 qa qa bag.
+na na bags contain 1 oa oa bag, 1 pa pa bag, 1 qa qa bag, 1 ra ra bag.
+oa oa bags contain 1 pa pa bag, 1 qa qa bag, 1 ra ra bag, 1 sa sa bag.
+pa pa bags contain 1 qa qa bag, 1 ra ra bag, 1 sa sa bag, 1 ta ta bag.
+qa qa bags contain 1 ra ra bag, 1 sa sa bag, 1 ta ta bag, 1 ua ua bag.
+ra ra bags contain 1 sa sa bag, 1 ta ta bag, 1 ua ua bag, 1 va va bag.
+sa sa bags contain 1 ta ta bag, 1 ua ua bag, 1 va va bag, 1 wa wa bag.
+ta ta bags contain 1 ua ua bag, 1 va va bag, 1 wa wa bag, 1 xa xa bag.
+ua ua bags contain 1 va va bag, 1 wa wa bag, 1 xa xa bag, 1 ya ya bag.
+va va bags contain 1 wa wa bag, 1 xa xa bag, 1 ya ya bag, 1 za za bag.
+wa wa bags contain 1 xa xa bag, 1 ya ya bag, 1 za za bag, 1 ab ab bag.
+xa xa bags contain 1 ya ya bag, 1 za za bag, 1 ab ab bag, 1 bb bb bag.
+ya ya bags contain 1 za za bag, 1 ab ab bag, 1 bb bb bag, 1 cb cb bag.
+za za bags contain 1 ab ab bag, 1 bb bb bag, 1 cb cb bag.
+ab ab bags contain 1 bb bb bag, 1 cb cb bag.
+bb bb bags contain 1 cb cb bag.
+cb cb bags contain no other bags.

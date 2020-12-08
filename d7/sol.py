@@ -58,6 +58,10 @@ assert count_bags_which_contain(MY_BAG, rules1) == 4
 assert count_bags_inside(MY_BAG, rules1) == 32
 assert count_bags_inside(MY_BAG, rules2) == 126
 
+HARD = open("d7/hard_input.txt").read()
+hard_rules = parse_text(HARD)
+print(f"hard: {count_bags_inside(MY_BAG, hard_rules)}")
+
 my_rules = parse_text(TEXT)
 print(f"`{MY_BAG}` is in {count_bags_which_contain(MY_BAG, my_rules)} other bags")
 print(f"`{MY_BAG}` contains {count_bags_inside(MY_BAG, my_rules)} other bags")
