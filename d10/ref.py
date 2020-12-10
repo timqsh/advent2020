@@ -33,6 +33,15 @@ def arrangements_count(nums: List[int]) -> int:
     return count(0)
 
 
+def din_prog(nums: List[int]) -> int:
+    """Alternative solution to part 2"""
+    nums = [0] + sorted(nums)
+    dp = Counter({0: 1})
+    for n in nums[1:]:
+        dp[n] = sum(dp[n - i] for i in range(1, 4))
+    return dp[nums[-1]]
+
+
 lines = open("d10/input.txt").read().splitlines()
 test1 = "16 10 15 5 1 11 7 19 6 12 4".split()
 test2 = (
@@ -46,8 +55,8 @@ result = diff_prod(parse(lines))
 print(result)
 assert result == 1876
 
-assert arrangements_count(parse(test1)) == 8
-assert arrangements_count(parse(test2)) == 19208
+assert arrangements_count(parse(test1)) == 8 == din_prog(parse(test1))
+assert arrangements_count(parse(test2)) == 19208 == din_prog(parse(test2))
 result = arrangements_count(parse(lines))
 print(result)
-assert result == 14173478093824
+assert result == 14173478093824 == din_prog(parse(lines))
