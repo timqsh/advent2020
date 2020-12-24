@@ -27,8 +27,6 @@ def move(arr: np.ndarray) -> None:
 @njit(cache=True)
 def move_n(arr: np.ndarray, n) -> None:
     for i in range(n):
-        if i % 10 ** 6 == 0:
-            print("iteration #" + str(i))
         move(arr)
 
 
@@ -51,7 +49,7 @@ def part_1(txt: str, moves: int) -> str:
 
 def part_2(txt: str) -> int:
     digs = [int(i) for i in txt]
-    arr = np.zeros(10 ** 6 + 1, dtype=int)
+    arr = np.zeros(10 ** 6 + 1, dtype=np.int32)
     arr[0] = digs[0]  # pointer in first elem
     for i in range(len(digs)):
         arr[digs[i]] = digs[(i + 1) % len(digs)]
@@ -63,7 +61,7 @@ def part_2(txt: str) -> int:
 
     f1 = arr[1]
     f2 = arr[f1]
-    return f1 * f2
+    return f1.item() * f2.item()
 
 
 if __name__ == "__main__":
